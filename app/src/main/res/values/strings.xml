@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Art Space app</string>
+    <string name="the_starry_night">The Starry Night</string>
+    <string name="artist_van_gogh">Artist: Van Gogh</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="caspar_david_friedrich">Caspar David Friedrich</string>
+    <string name="wanderer_above_the_sea_of_fog">Wanderer above the Sea of Fog</string>
+</resources>
