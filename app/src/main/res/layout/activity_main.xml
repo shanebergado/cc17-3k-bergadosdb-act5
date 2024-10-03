@@ -34,13 +34,26 @@
         style="?android:attr/buttonBarStyle"
         android:layout_width="399dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayout"
-        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/tag_state_description"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/caspar_david_friedrich"
         android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="italic"
+        tools:ignore="NotSibling,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tag_state_description"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_above="@+id/linearLayout"
+        android:gravity="center"
+        android:text="The painting has been interpreted as an emblem of self-reflection or contemplation of life's path"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         tools:ignore="NotSibling,TextContrastCheck" />
 
     <LinearLayout
@@ -63,6 +76,7 @@
             android:layout_marginStart="3dp"
             android:text="@string/previous"
             android:textColor="@color/black"
+            android:backgroundTint="@color/material_dynamic_tertiary50"
             android:textSize="20sp" />
 
         <Button
@@ -73,6 +87,7 @@
             android:layout_marginStart="110dp"
             android:text="@string/next"
             android:textColor="@color/black"
+            android:backgroundTint="@color/material_dynamic_tertiary50"
             android:textSize="20sp"
             tools:ignore="ButtonStyle,TouchTargetSizeCheck" />
     </LinearLayout>

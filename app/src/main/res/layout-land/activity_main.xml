@@ -27,6 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_weight="1"
+            android:layout_marginTop="32dp"
             android:orientation="vertical"
             android:gravity="center_vertical">
 
@@ -37,7 +38,7 @@
                 android:layout_marginStart="32dp"
                 android:text="Wanderer above the sea of fog"
                 android:textColor="#000000"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -47,9 +48,20 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
                 android:text="Caspar David Friedrich"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:textStyle="italic"
                 tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tag_state_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="The painting has been interpreted as an emblem of self-reflection or contemplation of life's path."
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
         </LinearLayout>
     </LinearLayout>
 
@@ -70,6 +82,7 @@
             android:layout_marginStart="3dp"
             android:text="@string/previous"
             android:textColor="@color/black"
+            android:backgroundTint="@color/material_dynamic_tertiary50"
             android:textSize="20sp" />
 
         <Button
@@ -80,6 +93,7 @@
             android:layout_marginStart="110dp"
             android:text="@string/next"
             android:textColor="@color/black"
+            android:backgroundTint="@color/material_dynamic_tertiary50"
             android:textSize="20sp"
             tools:ignore="ButtonStyle,TouchTargetSizeCheck" />
     </LinearLayout>
